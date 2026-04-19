@@ -1,0 +1,176 @@
+{
+  "defaultLanguage": "en",
+  "languages": ["en"],
+  "isGroomSide": true,
+  "autoScroll": {
+    "enabled": false,
+    "speed": 0.35,
+    "startDelayMs": 1800,
+    "pauseOnInteraction": true
+  },
+  "flowerShower": {
+    "enabled": true,
+    "onTap": true,
+    "onScrollTrail": true,
+    "flowerCount": 18
+  },
+  "sections": {
+    "family": true,
+    "gallery": true,
+    "countdown": true,
+    "events": true,
+    "map": true,
+    "rsvp": true
+  },
+  "couple": {
+    "groomName": { "en": "Manav" },
+    "brideName": { "en": "Shivani" },
+    "groomFullName": { "en": "Dr. Manav Ish Sall" },
+    "brideFullName": { "en": "Dr. Shivani Sharma" },
+    "coupleShort": { "en": "M & S" },
+    "tagline": { "en": "With joyful hearts, we invite you to celebrate our wedding." }
+  },
+  "calendar": {
+    "featuredEventId": "wedding"
+  },
+  "family": {
+    "groom": {
+      "title": { "en": "Dr. Manav Ish Sall" },
+      "parents": {
+        "label": { "en": "Parents" },
+        "members": [
+          { "en": "Late S. Daljeet Sall" },
+          { "en": "Mrs. Pardeep Kaur" }
+        ]
+      },
+      "grandparents": {
+        "label": { "en": "Grandparents" },
+        "members": [
+          { "en": "Sh. Hari Chand Sall" },
+          { "en": "Sdr. Surjit Kaur" }
+        ]
+      }
+    },
+    "bride": {
+      "title": { "en": "Dr. Shivani Sharma" },
+      "parents": {
+        "label": { "en": "Parents" },
+        "members": [
+          { "en": "Mr. Sushil Sharma" },
+          { "en": "Mrs. Nisha Sharma" }
+        ]
+      },
+      "grandparents": {
+        "label": { "en": "Grandparents" },
+        "members": []
+      }
+    }
+  },
+  "events": [
+    {
+      "id": "wedding",
+      "icon": "💍",
+      "title": { "en": "Wedding Ceremony" },
+      "date": { "en": "13th May 2026, Wednesday" },
+      "time": { "en": "8:00 PM onwards" },
+      "venue": { "en": "The Wedding Resort, Zirakpur" },
+      "description": {
+        "en": "Join us for an evening of celebration, blessings, and togetherness as we begin our new journey."
+      },
+      "calendar": {
+        "start": "2026-05-13T20:00:00+05:30",
+        "end": "2026-05-13T23:00:00+05:30"
+      }
+    },
+    {
+      "id": "reception",
+      "icon": "🎉",
+      "title": { "en": "Reception" },
+      "date": { "en": "15th May 2026, Friday" },
+      "time": { "en": "7:00 PM onwards" },
+      "venue": { "en": "Simran Resort, Sirhind Road, Patiala" },
+      "description": {
+        "en": "Celebrate with us at the reception as we share a joyful evening with family and friends."
+      },
+      "calendar": {
+        "start": "2026-05-15T19:00:00+05:30",
+        "end": "2026-05-15T22:00:00+05:30"
+      }
+    }
+  ],
+  "mapLocations": [
+    {
+      "name": { "en": "Wedding Venue" },
+      "location": { "en": "The Wedding Resort, Zirakpur" },
+      "query": "The Wedding Resort, Zirakpur",
+      "zoom": 15,
+      "color": "#ef4444",
+      "googleMapsLink": "https://maps.app.goo.gl/SAUUA3xcWuKsqA6t5?g_st=ic"
+    },
+    {
+      "name": { "en": "Reception Venue" },
+      "location": { "en": "Simran Resort, Sirhind Road, Patiala" },
+      "query": "Simran Resort, Sirhind Road, Patiala",
+      "zoom": 15,
+      "color": "#a855f7",
+      "googleMapsLink": "https://maps.app.goo.gl/1sv9ABnsDRFfzv3v6?g_st=ic"
+    }
+  ],
+  "weddingDate": "May 13, 2026 20:00:00",
+  "whatsapp": {
+    "phone": "919803804091",
+    "messageTemplate": "Hello {{groomName}} & {{brideName}}! We are delighted to attend your wedding celebrations. 🥂✨\n\nName: {{guestName}}\nNumber of Guests: {{guestCount}}\n\nCan't wait to celebrate with you!"
+  },
+  "rsvp": {
+    "title": { "en": "Respond with Love", "te": "ప్రేమతో స్పందించండి" },
+    "subtitle": { "en": "Please let us know if you'll be attending!", "te": "దయచేసి మీరు వస్తున్నారో లేదో తెలియజేయండి!" },
+    "nameLabel": { "en": "Your Name", "te": "మీ పేరు" },
+    "namePlaceholder": { "en": "E.g. Rahul Sharma", "te": "ఉదాహరణ: రాహుల్ శర్మ" },
+    "countLabel": { "en": "Number of Guests", "te": "అతిథుల సంఖ్య" },
+    "buttonText": { "en": "Confirm on WhatsApp", "te": "WhatsAppలో నిర్ధారించండి" }
+  },
+  "ui": {
+    "en": {
+      "welcome": "This invitation is exclusively for you",
+      "tap": "tap & scroll till end",
+      "shubh": "|| श्री गणेशाय नमः ||",
+      "together": "Together with our family",
+      "weds": "Weds",
+      "and": "&",
+      "inviteLine": "Request the honour of your presence at our wedding celebration",
+      "galleryTitle": "Our Precious Moments",
+      "eventsTitle": "Wedding Events",
+      "eventsSub": "Join us across beautiful celebrations",
+      "countdownTitle": "Time to Celebration",
+      "countdownDate": "13 May 2026",
+      "addToCalendar": "Add to Calendar",
+      "locationsTitle": "Location & Venues",
+      "locationsCurrent": "Currently Viewing",
+      "locationsTap": "Tap to View Map",
+      "directions": "Directions",
+      "parentsLabel": "Parents",
+      "grandparentsLabel": "Grandparents",
+      "footerMsg": "We can't wait to celebrate with you!",
+      "madeBy": "Made securely by",
+      "days": "Days",
+      "hours": "Hours",
+      "mins": "Mins",
+      "secs": "Secs"
+    }
+  },
+  "musicLoop": false,
+  "languageLabels": {
+    "en": "EN"
+  },
+  "gallery": [
+    { "src": "https://drive.google.com/thumbnail?id=1RBBv0CWxN7TgXrh4Tb3jgtZrLJx7bCEC&sz=w1600", "alt": "Manav & Shivani Moments 1", "center": true },
+    { "src": "https://drive.google.com/thumbnail?id=1QWhYhGs9nErO-lwbfxTqJvA7VrE5JQgg&sz=w1600", "alt": "Manav & Shivani Moments 2" },
+    { "src": "https://drive.google.com/thumbnail?id=1BE1mghSiRA5WvL402ggtD3oEZw_H_1ug&sz=w1600", "alt": "Manav & Shivani Moments 3" },
+    { "src": "https://drive.google.com/thumbnail?id=1_ChJntd9IxVoOBpeelX6CUra_04In983&sz=w1600", "alt": "Manav & Shivani Moments 4" },
+    { "src": "https://drive.google.com/thumbnail?id=1ey09oB6CTJP4pNZ6jvVukR3TNEX6ne5X&sz=w1600", "alt": "Manav & Shivani Moments 5" }
+  ],
+  "meta": {
+    "title": "Manav & Shivani — Wedding Invitation",
+    "description": "You are cordially invited to celebrate the wedding of Dr. Manav Ish Sall and Dr. Shivani Sharma"
+  }
+}
