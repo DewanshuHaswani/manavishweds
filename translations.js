@@ -440,8 +440,14 @@ function updateSectionVisibility() {
 }
 
 function applyThemeFont() {
-  const langFont = weddingData.languageFonts?.[currentLang];
-  document.body.style.fontFamily = langFont || weddingData.defaultFontFamily || "var(--font-body)";
+  const languageFonts = weddingData.languageFonts || {};
+  const baseLang = currentLang.split("-")[0];
+  const langFont =
+    languageFonts[currentLang] ||
+    languageFonts[baseLang] ||
+    weddingData.defaultFontFamily ||
+    "var(--font-body)";
+  document.body.style.fontFamily = langFont;
 }
 
 function updateMeta() {
@@ -490,6 +496,7 @@ function normalizeData(data) {
     defaultLanguage: data.defaultLanguage || availableLanguages[0] || "en",
     isGroomSide: typeof data.isGroomSide === "boolean" ? data.isGroomSide : true,
     languageFonts: data.languageFonts || {
+      hi: "'Noto Sans Devanagari', 'Noto Serif Devanagari', 'Cormorant Garamond', serif",
       te: "'Noto Sans Telugu', 'Cormorant Garamond', serif",
       en: "'Cormorant Garamond', serif",
     },

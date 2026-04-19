@@ -234,7 +234,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       const now = Date.now();
       if (now - lastTrailAt < 140) return;
       lastTrailAt = now;
-      createFlowerBurst(window.innerWidth * (0.35 + Math.random() * 0.3), window.innerHeight * 0.22, 6);
+      createFlowerBurst(window.innerWidth * (0.15 + Math.random() * 0.7), -10, 8);
     }, { passive: true });
   }
 

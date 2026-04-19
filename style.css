@@ -634,18 +634,18 @@ body {
   opacity: 1;
   background: linear-gradient(
     to right,
-    #5678c7 16%,
-    #8cc4ff 42%,
-    #d7eeff 52%,
-    #8cc4ff 62%,
-    #5678c7 86%
+    rgba(159, 188, 169, 0.72) 14%,
+    rgba(214, 232, 220, 0.98) 44%,
+    rgba(244, 255, 250, 1) 52%,
+    rgba(214, 232, 220, 0.98) 60%,
+    rgba(159, 188, 169, 0.72) 86%
   );
   background-size: 200% auto;
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
   animation: shineText 5s linear infinite;
-  filter: drop-shadow(0 0 10px rgba(124, 176, 255, 0.28));
+  filter: drop-shadow(0 0 10px rgba(159, 188, 169, 0.24));
 }
 
 @media (max-width: 768px) {
